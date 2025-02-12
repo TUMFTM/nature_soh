@@ -1,4 +1,4 @@
-# nature_soh
+# Nature Energy
 # Why we need a standardized state of health definition for battery electric vehicles -- a proposal for an energy- and capacity-based metric
 
 Supplementary python code for the publication. Analyze charging data from state of the art electric vehicles.
