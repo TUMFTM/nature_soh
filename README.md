@@ -1,8 +1,8 @@
 # nature_soh
 # Why we need a standardized state of health definition for battery electric vehicles -- a proposal for an energy- and capacity-based metric
 
-Supplementary python code for the publication. Analyze chargin data from state of the art electric vehicles.
-Derive curves for vehicle level differential voltage analysis (DVA).
+Supplementary python code for the publication. Analyze charging data from state of the art electric vehicles.
+Derive curves for vehicle level differential voltage analysis (DVA) and deeper aging assessment.
 
 ## Associated Article
 Please also check the associated article available online published with:
@@ -12,17 +12,22 @@ Please also check the associated article available online published with:
 * Calculation of DVA and ICA from timeseries data
 * Availabilty of cell and vehicle data
 * Filtering methods
-* Visualization tools (pOCV, DVA, ICA)
-* Notebooks for displaying data in Latex format
+* Notebooks for displaying data in paper format
 
 ## Project Structure
     ├── data           <- must be created by user, download files from mediatum (link below)
     │   │
     │   ├── font    <- fonts for the figures (STIX)
     │   │
-    │   ├── Tesla    <- cell and vehicle data
+    │   ├── Tesla    <- vehicle data for a Tesla Model 3 (LFP) and two Tesla Model Y (NMC)
     │   │
-    │   └── VW       <- cell, halfcell and vehicle data (+raw vehicle data)
+    │   ├── Cupra    <- vehicle data for five Cupra Borns
+    │   │
+    │   ├── Taycan    <- vehicle data for two Porsche Taycans
+    │   │
+    │   └── VW       <- cell, halfcell and vehicle data (mutliple measurements)
+    │
+    ├── figures    <- generated figures are saved here
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the category, and a short description 
@@ -30,11 +35,9 @@ Please also check the associated article available online published with:
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to load and prepare data for further processing
+    │   ├── data           <- Scripts to load data for further processing
     │   │   
     │   ├── filtering       <- Filtering methods to reduce the noise in DVA/ICA
-    │   │
-    |   ├── utils       <- Utils for calculating bode plots
     │   │
     │   ├── visualization  <- Scripts to create visualizations
     │   │    
@@ -66,7 +69,7 @@ pip install -r requirements.txt
 ```  
 3. download data from mediaTUM and place into data folder:
 ```url
-https://mediatum.ub.tum.de/1737452
+https://tbd (will be updated after publication)
 ```
 
 ## Contributing and Support
