@@ -69,7 +69,7 @@ pip install -r requirements.txt
 ```  
 3. download data from mediaTUM and place into data folder:
 ```
-[Link to Data](https://mediatum.ub.tum.de/1765567)
+https://mediatum.ub.tum.de/1765567
 ```
 
 ## Contributing and Support
