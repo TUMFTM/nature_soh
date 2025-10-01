@@ -1,16 +1,16 @@
 # Nature Energy
-# Why we need a standardized state of health definition for battery electric vehicles -- a proposal for an energy- and capacity-based metric
+# Why we need a standardized state of health deﬁnition for electric vehicle battery packs -- a proposal for energy- and capacity-based metrics
 
 Supplementary python code for the publication. Analyze charging data from state of the art electric vehicles.
 Derive curves for vehicle level differential voltage analysis (DVA) and deeper aging assessment.
 
 ## Associated Article
-Please also check the associated article available online published with:
-(will be added after acceptance)
+Please also check the associated article available online published with npj Clean Energy:
+[Link to paper](https://doi.org/10.1038/s44406-025-00010-8)
  
 ## Features
-* Calculation of DVA and ICA from timeseries data
-* Availabilty of cell and vehicle data
+* Calculation of DVA from timeseries data
+* Availabilty of vehicle data
 * Filtering methods
 * Notebooks for displaying data in paper format
 
@@ -68,7 +68,7 @@ git clone https://github.com/TUMFTM/nature_soh.git
 pip install -r requirements.txt
 ```  
 3. download data from mediaTUM and place into data folder:
-```url
+```[Link to Data](https://mediatum.ub.tum.de/1765567)
 https://tbd (will be updated after publication)
 ```
 
